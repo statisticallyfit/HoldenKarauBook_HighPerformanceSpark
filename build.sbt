@@ -49,7 +49,8 @@ libraryDependencies ++= Seq(
   "org.codehaus.jackson" % "jackson-mapper-asl" % "1.8.8",
   "org.codehaus.jackson" % "jackson-core-asl" % "1.9.13",
   "org.codehaus.jackson" % "jackson-mapper-asl" % "1.9.13",
-  "net.java.dev.jna" % "jna" % "4.2.2")
+  "net.java.dev.jna" % "jna" % "4.2.2"
+)
 
 
 scalacOptions ++= Seq("-deprecation", "-unchecked")
@@ -73,6 +74,9 @@ resolvers ++= Seq(
   Resolver.bintrayRepo("jodersky", "sbt-jni-macros"),
   "jodersky" at "https://dl.bintray.com/jodersky/maven/"
 )
+
+
+
 
 licenses := Seq("Apache License 2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0.html"))
 
