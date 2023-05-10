@@ -1,4 +1,5 @@
 package com.highperformancespark.examples.mllib
+//package com.high-performance-spark-examples.mllib
 
 import com.highperformancespark.examples.dataframe._
 

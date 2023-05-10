@@ -1,33 +1,43 @@
+project/*
+project
+
+project/.boot/
+project/.boot/*
+
+project/.sbtboot/
+project/.sbtboot/*
+
+project/.ivy/*
+project/.ivy/
+
+project/target
+project/target/*
+
+project/project/*
+project/project/
+
+
+
+target
+target/*
+
+.idea
+.idea/
+.idea/*
+
+.history
+.bsp/
+
+
+.metadata
+.cache-main
+.classpath
+.project
+.settings
 *.class
+*.orig
 *.log
 
-# sbt specific
-.cache
-.history
-.lib/
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
-
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
-.idea/
-
-# emacs stuff
-\#*\#
-\.\#*
-*~
-sbt/*launch*.jar
-
-# python
-*.pyc
-
-# native
-*.o
-*.so
-*.so.0.0.0
-*.so.0
+.DS_Store
+*.iml
+scalastyle-output.xml
